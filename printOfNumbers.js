@@ -18,7 +18,7 @@ function printNumbers(begin, end){
     let a = begin;
     setTimeout(function go() {
     alert (a)
-        if(current < to ) {
+        if(a < end ) {
         setTimeout(go, 1000)
         }
         a++;
